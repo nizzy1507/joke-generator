@@ -10,7 +10,6 @@ const loader = document.getElementById('loader');
 // Show Loading
 const showLoadingSpinner = function () {
   loader.classList.remove('hidden');
-  quoteContainer.classList.add('hidden');
 };
 
 // Hide Loading
