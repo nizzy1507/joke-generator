@@ -97,11 +97,11 @@ body {
 
 /* Loader */
 .loader {
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #333;
+  border: 10px solid #ccc;
+  border-top: 10px solid #333;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   animation: spin 2s linear infinite;
 }
 
@@ -122,6 +122,16 @@ body {
 
   .quote-text {
     font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .quote-container {
+    margin: auto 10px;
+  }
+
+  .quote-text {
+    font-size: 2rem;
   }
 }
 
